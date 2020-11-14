@@ -7,6 +7,11 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
+" Auto pairs for '(' '[' '{' 
+    Plug 'machakann/vim-sandwich' 
+    Plug 'jiangmiao/auto-pairs' 
+    Plug 'tpope/vim-surround' 
+    Plug 'tpope/vim-repeat' 
     " LaTeX Support
     Plug 'lervag/vimtex'
     " LaTeX Linting
@@ -53,14 +58,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     " Status Line
     Plug 'glepnir/galaxyline.nvim'
     Plug 'kevinhwang91/rnvimr'
@@ -117,6 +121,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     Plug 'francoiscabrol/ranger.vim'
     Plug 'rbgrouleff/bclose.vim'
+    " Pandoc
+    " Plug 'vim-pandoc/vim-pandoc'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine

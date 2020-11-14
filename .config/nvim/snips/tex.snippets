@@ -180,23 +180,10 @@ endsnippet
 snippet fig "Figure environment" b
 	\begin{figure}
 	\begin{center}
-		\includegraphics[scale=${1}]{Figures/${2}}
+		\includegraphics[width=10 cm]{Figures/${1}}
 	\end{center}
-	\caption{${3}}
-	\label{fig:${4}}
-	\end{figure}
-	${0}
-endsnippet
-
-snippet tikz "Tikz environment" b
-	\begin{figure}[htpb]
-	\begin{center}
-	\begin{tikzpicture}[scale=${1:1}, transform shape]
-		${2}
-	\end{tikzpicture}
-	\end{center}
-	\caption{${3}}%
-	\label{fig:${4}}
+	\caption{${2}}
+	\label{fig:${3}}
 	\end{figure}
 	${0}
 endsnippet
