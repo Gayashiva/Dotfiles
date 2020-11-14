@@ -84,8 +84,6 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-# colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -117,32 +115,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-#__conda_setup="$('/home/surya/Programs/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-#if [ $? -eq 0 ]; then
-#    eval "$__conda_setup"
-#else
-#    if [ -f "/home/surya/Programs/anaconda3/etc/profile.d/conda.sh" ]; then
-#	. "/home/surya/Programs/anaconda3/etc/profile.d/conda.sh"
-#    else
-#	export PATH="/home/surya/Programs/anaconda3/bin:$PATH"
-#    fi
-#fi
-#
-#unset __conda_setup
-# <<< conda initialize <<<
-# ahj - remove the default Python environment artifact "(base)" from prompt
-#PS1=$(echo "$PS1" | perl -pe 's/^\(base\)\s*//' )
-
 export PATH=/home/surya/Programs/anaconda3/bin:$PATH
 export PATH=/snap/bin:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-#Pyenv
-export PATH="/home/surya/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
