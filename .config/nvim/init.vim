@@ -15,6 +15,7 @@ source $HOME/.config/nvim/themes/syntax.vim
 source $HOME/.config/nvim/themes/nvcode.vim
 
 " Plugin Configuration
+source $HOME/.config/nvim/plug-config/limelight.vim
 source $HOME/.config/nvim/plug-config/vimtex.vim
 source $HOME/.config/nvim/plug-config/ranger.vim
 source $HOME/.config/nvim/keys/which-key.vim

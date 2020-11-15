@@ -7,7 +7,8 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-" Auto pairs for '(' '[' '{' 
+
+"" Auto pairs for '(' '[' '{' 
     Plug 'machakann/vim-sandwich' 
     Plug 'jiangmiao/auto-pairs' 
     Plug 'tpope/vim-surround' 
@@ -87,6 +88,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
     Plug 'junegunn/goyo.vim'
+    Plug 'junegunn/limelight.vim'
     " Snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
