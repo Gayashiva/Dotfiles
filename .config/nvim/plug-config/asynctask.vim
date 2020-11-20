@@ -1,3 +1,4 @@
+let g:asyncrun_rootmarks = ['.git', '.svn', '.root', '.project', '.hg']
 let g:asyncrun_open = 6
 let g:asynctasks_term_pos = 'right'
 " let g:asynctasks_term_pos = 'top'
