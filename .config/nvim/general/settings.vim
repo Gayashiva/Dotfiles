@@ -43,6 +43,9 @@ set guifont=Fira\ Code\ Nerd\ Font
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
 
+au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
+
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 " You can't stop me
 cmap w!! w !sudo tee %
