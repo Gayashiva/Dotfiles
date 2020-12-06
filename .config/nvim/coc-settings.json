@@ -44,10 +44,10 @@
   "python.linting.pylintEnabled": false,
   "python.formatting.provider": "black",
   // "python.formatting.blackPath": "~/.local/bin/black",
-  // "python.linting.pylintPath": "~/Programs/anaconda3/envs/pynvim/bin/pylint",
+  // "python.linting.pylintPath": "~/Programs/anaconda3/lib/python3.7/site-packages",
   // "python.condaPath": "~/Programs/anaconda3/bin/conda",
-  // "python.sortImports.path": "~/Programs/anaconda3/envs/pynvim/bin/isort",
-  // "python.jediPath": "~/Programs/anaconda3/envs/pynvim/lib/python3.7/site-packages",
+  // "python.sortImports.path": "~/Programs/anaconda3/lib/python3.7/site-packages",
+  // "python.jediPath": "~/Programs/anaconda3/lib/python3.7/site-packages",
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
