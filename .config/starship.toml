@@ -29,7 +29,8 @@ discharging_symbol = "💀"
 threshold = 15
 style = "bold red"
 
-# [cmd_duration]
+[cmd_duration]
+disabled = true
 # min_time = 500
 # format = "underwent [$duration](bold yellow)"
 
