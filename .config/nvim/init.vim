@@ -37,6 +37,7 @@ source $HOME/.config/nvim/plug-config/git-messenger.vim
 source $HOME/.config/nvim/plug-config/deoplete.vim
 source $HOME/.config/nvim/plug-config/closetags.vim
 source $HOME/.config/nvim/plug-config/floaterm.vim
+source $HOME/.config/nvim/plug-config/folding.vim
 " source $HOME/.config/nvim/plug-config/barbar.vim "Error
 source $HOME/.config/nvim/plug-config/far.vim
 "  source $HOME/.config/nvim/plug-config/tagalong.vim

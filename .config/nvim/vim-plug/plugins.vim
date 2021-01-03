@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dense-analysis/ale'
     "Python fold code
     Plug 'tmhedberg/simpylfold'
+    Plug 'Konfekt/FastFold'
     "Beancount accounts
     Plug 'nathangrigg/vim-beancount'
     " Better Comments
