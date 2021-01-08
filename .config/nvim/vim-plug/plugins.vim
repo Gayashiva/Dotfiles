@@ -73,12 +73,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
-    " Git
+    " Git Integration
+    Plug 'mhinz/vim-signify'
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
-    Plug 'rhysd/git-messenger.vim'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen

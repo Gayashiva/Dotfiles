@@ -126,7 +126,6 @@ let g:which_key_map.S = {
       \ 's' : [':Startify'        , 'Start Page']     ,
       \ 'S' : [':SSave'           , 'Save Session']   ,
       \ }
-
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
@@ -137,26 +136,18 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'D' : [':Gdiffsplit'                       , 'diff split'],
-      \ 'g' : [':GGrep'                            , 'git grep'],
-      \ 'G' : [':Gstatus'                          , 'status'],
+      \ 'G' : [':GGrep'                            , 'git grep'],
+      \ 's' : [':Gstatus'                          , 'status'],
       \ 'h' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
-      \ 'H' : ['<Plug>(GitGutterPreviewHunk)'      , 'preview hunk'],
-      \ 'i' : [':Gist -b'                          , 'post gist'],
-      \ 'j' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
-      \ 'k' : ['<Plug>(GitGutterPrevHunk)'         , 'prev hunk'],
       \ 'l' : [':Git log'                          , 'log'],
-      \ 'm' : ['<Plug>(git-messenger)'             , 'message'],
-      \ 'p' : [':Git push'                         , 'push'],
-      \ 'P' : [':Git pull'                         , 'pull'],
+      \ 'P' : [':Git push'                         , 'push'],
+      \ 'p' : [':Git pull'                         , 'pull'],
       \ 'r' : [':GRemove'                          , 'remove'],
-      \ 's' : ['<Plug>(GitGutterStageHunk)'        , 'stage hunk'],
-      \ 'S' : [':!git status'                      , 'status'],
+      \ 'g' : [':FloatermNew lazygit'              , 'lazygit'],
       \ 't' : [':GitGutterSignsToggle'             , 'toggle signs'],
-      \ 'u' : ['<Plug>(GitGutterUndoHunk)'         , 'undo hunk'],
       \ 'v' : [':GV'                               , 'view commits'],
       \ 'V' : [':GV!'                              , 'view buffer commits'],
       \ }
-
 
 " l is for language server protocol
 let g:which_key_map.l = {
@@ -195,7 +186,17 @@ let g:which_key_map.l = {
       \ 'z' : [':CocDisable'                         , 'disable CoC'],
       \ 'Z' : [':CocEnable'                          , 'enable CoC'],
       \ }
-      " \ 'o' : ['<Plug>(coc-openlink)'                , 'open link'],
+"
+" h is for GitHub
+let g:which_key_map.h = {
+      \ 'name' : '+github-cli' ,
+      \ 'h' : [':FloatermNew! gh help'              , 'help'],
+      \ 'i' : [':FloatermNew! gh issue create'      , 'create issue'],
+      \ 'k' : [':FloatermKill!'                     , 'kill terminals'],
+      \ 'l' : [':FloatermNew! gh issue list'        , 'list issues'],
+      \ 'r' : [':FloatermNew! gh reference'         , 'reference'],
+      \ 'v' : [':FloatermNew! gh repo view -w'      , 'view repo'],
+      \ }
 
 " let g:which_key_map.G = {
 "       \ 'name' : '+gist' ,
