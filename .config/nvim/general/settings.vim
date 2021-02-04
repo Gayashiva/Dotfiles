@@ -51,3 +51,6 @@ au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 " You can't stop me
 cmap w!! w !sudo tee %
+
+let g:python3_host_prog = '/home/surya/.pyenv/versions/neovim3/bin/python'
+let g:python_host_prog = '/home/surya/.pyenv/versions/neovim2/bin/python'
