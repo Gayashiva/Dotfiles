@@ -124,6 +124,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Ranger
     Plug 'francoiscabrol/ranger.vim'
     Plug 'rbgrouleff/bclose.vim'
+    "Ipython
+    Plug 'bfredl/nvim-ipy'
+    Plug 'jupyter-vim/jupyter-vim'
     " Pandoc
     " Plug 'vim-pandoc/vim-pandoc'
     " Rainbow brackets
