@@ -26,11 +26,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-# Go environment
-export GOPATH="/Programs/Golang"
-# Expose the Go binaries in the PATH
-export PATH="/usr/local/go/bin:$PATH"
-# VScode
-export PATH="/var/data/python/bin:$PATH"
 
-export PATH="$HOME/.cargo/bin:$PATH"
