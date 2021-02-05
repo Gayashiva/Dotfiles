@@ -1,1 +1,1 @@
-source (lua /home/surya/.config/z.lua/z.lua --init fish | psub)
+source (lua $HOME/.config/z.lua/z.lua --init fish | psub)
