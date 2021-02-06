@@ -52,5 +52,5 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 " You can't stop me
 cmap w!! w !sudo tee %
 
-let g:python3_host_prog = '/home/surya/.pyenv/versions/neovim3/bin/python'
-let g:python_host_prog = '/home/surya/.pyenv/versions/neovim2/bin/python'
+let g:python3_host_prog = '$HOME/.config/pyenv/versions/neovim3/bin/python'
+let g:python_host_prog = '$HOME/.config/pyenv/versions/neovim2/bin/python'
