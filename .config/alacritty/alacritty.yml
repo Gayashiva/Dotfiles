@@ -109,7 +109,6 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    # family: SauceCodePro Nerd Font
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -117,8 +116,9 @@ font:
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
-    family: SauceCodePro Nerd Font
+    # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -137,8 +137,9 @@ font:
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
-    family: SauceCodePro Nerd Font
+    # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -157,8 +158,9 @@ font:
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
-    family: SauceCodePro Nerd Font
+    # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
+    family: Fira Code
 
     # The `style` can be specified to pick a specific face.
     style: Italic
