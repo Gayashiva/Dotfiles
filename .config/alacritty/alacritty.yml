@@ -118,7 +118,7 @@ font:
     # family: TerminessTTF Nerd Font
     # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
-    family: Fira Code
+    family: Fira Code Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -139,7 +139,7 @@ font:
     # family: TerminessTTF Nerd Font
     # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
-    family: Fira Code
+    family: Fira Code Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -160,7 +160,7 @@ font:
     # family: TerminessTTF Nerd Font
     # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
-    family: Fira Code
+    family: Fira Code Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -179,8 +179,9 @@ font:
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
-    family: SauceCodePro Nerd Font
+    # family: SauceCodePro Nerd Font
     # family: FantasqueSansMono
+    family: Fira Code Nerd Font
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
