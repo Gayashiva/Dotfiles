@@ -6,7 +6,6 @@ and not set -q TMUX
 end
 
 alias vim nvim
-alias cat bat
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # pyenv init

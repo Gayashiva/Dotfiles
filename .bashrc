@@ -8,3 +8,6 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 alias config='/usr/bin/git --git-dir=/home/suryab/.cfg/ --work-tree=/home/suryab'
+alias config='/usr/bin/git --git-dir=/home/suryab/.cfg/ --work-tree=/home/suryab'
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
