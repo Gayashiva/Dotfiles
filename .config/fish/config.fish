@@ -1,4 +1,25 @@
-﻿## Hide welcome message
+﻿## My config
+
+if status is-interactive
+and not set -q TMUX
+    exec tmux
+end
+
+alias vim nvim
+alias cat bat
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# pyenv init
+set -Ux PYENV_ROOT $HOME/.config/pyenv
+set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+set -Ux fish_user_paths $HOME/PhD/air_model $fish_user_paths
+if command -v pyenv 1>/dev/null 2>&1
+  pyenv init - | source
+end
+status --is-interactive; and pyenv init - | source
+status --is-interactive; and pyenv virtualenv-init - | source
+
+## Hide welcome message
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
