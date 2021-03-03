@@ -39,12 +39,13 @@
   ],
   "coc.preferences.hoverTarget": "float",
 
-  // python config
+  // python 
+  "python.setInterpreter": "/home/suryab/.config/pyenv/shims/python",
   "python.linting.enabled": false,
   "python.linting.pylintEnabled": false,
   "python.formatting.provider": "black",
   "python.formatting.blackPath": "/home/suryab/.config/pyenv/shims/black",
-  "python.jediPath": "./.config/pyenv/versions/3.8.7/envs/neovim3/lib/python3.8/site-packages",
+  "python.jediPath": "/home/suryab/.config/pyenv/versions/3.8.7/envs/neovim3/lib/python3.8/site-packages",
   // "python.linting.pylintPath": "~/Programs/anaconda3/lib/python3.7/site-packages",
   // "python.condaPath": "~/Programs/anaconda3/bin/conda",
   // "python.sortImports.path": "~/Programs/anaconda3/lib/python3.7/site-packages",
