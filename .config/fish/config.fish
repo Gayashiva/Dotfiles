@@ -69,7 +69,7 @@ end
 
 ## Fish command history
 function history
-    builtin history --show-time='%F %T '
+    commandline (builtin history | fzf)
 end
 
 function backup --argument filename
@@ -89,6 +89,10 @@ function copy
     end
 end
 
+## search pacman
+function pacs
+  sudo pacman -Syy (pacman -Ssq | fzf -m --preview="pacman -Si {}" --preview-window=:hidden --bind=space:toggle-preview)
+end
 
 ## Useful aliases
 # Replace ls with exa
