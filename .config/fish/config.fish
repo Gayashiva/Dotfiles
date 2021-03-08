@@ -72,6 +72,10 @@ function history
     commandline (builtin history | fzf)
 end
 
+# function his
+#     commandline (builtin history | fzf)
+# end
+
 function backup --argument filename
     cp $filename $filename.bak
 end
