@@ -127,6 +127,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Ipython
     Plug 'bfredl/nvim-ipy'
     Plug 'jupyter-vim/jupyter-vim'
+    "Yank better
+    Plug 'vim-scripts/YankRing.vim'
     " Pandoc
     " Plug 'vim-pandoc/vim-pandoc'
     " Rainbow brackets
