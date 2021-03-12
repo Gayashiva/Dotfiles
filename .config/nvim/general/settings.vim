@@ -54,3 +54,7 @@ cmap w!! w !sudo tee %
 
 let g:python3_host_prog = '$HOME/.config/pyenv/versions/neovim3/bin/python'
 let g:python_host_prog = '$HOME/.config/pyenv/versions/neovim2/bin/python'
+
+if has("nvim")
+  set inccommand=nosplit                        " show substitutions incrementally
+endif
