@@ -27,7 +27,7 @@ source $HOME/.config/nvim/plug-config/codi.vim
 source $HOME/.config/nvim/plug-config/vim-wiki.vim
 luafile $HOME/.config/nvim/lua/nvcodeline.lua
 luafile $HOME/.config/nvim/lua/treesitter.lua
-" source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/easymotion.vim
 source $HOME/.config/nvim/plug-config/goyo.vim
 source $HOME/.config/nvim/plug-config/vim-rooter.vim
@@ -47,16 +47,16 @@ source $HOME/.config/nvim/plug-config/window-swap.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
-source $HOME/.config/nvim/plug-config/lsp-config.vim
+" source $HOME/.config/nvim/plug-config/lsp-config.vim
 " luafile $HOME/.config/nvim/lua/lsp/lsp-kind.lua
-luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
-luafile $HOME/.config/nvim/lua/compe-config.lua
-luafile $HOME/.config/nvim/lua/lspsaga-config.lua
-luafile ~/.config/nvim/lua/lsp/lsp-config.lua
+" luafile $HOME/.config/nvim/lua/lsp/python-ls.lua
+" luafile $HOME/.config/nvim/lua/compe-config.lua
+" luafile $HOME/.config/nvim/lua/lspsaga-config.lua
+" luafile ~/.config/nvim/lua/lsp/lsp-config.lua
 " luafile ~/.config/nvim/lua/lsp/lua-ls.lua
-luafile ~/.config/nvim/lua/lsp/python-ls.lua
-luafile ~/.config/nvim/lua/lsp/bash-ls.lua
-luafile ~/.config/nvim/lua/lsp/vim-ls.lua
+" luafile ~/.config/nvim/lua/lsp/python-ls.lua
+" luafile ~/.config/nvim/lua/lsp/bash-ls.lua
+" luafile ~/.config/nvim/lua/lsp/vim-ls.lua
 " autocmd FileType java luafile ~/.config/nvim/lua/lsp/java-ls.lua
 " luafile ~/.config/nvim/lua/lsp/css-ls.lua
 " luafile ~/.config/nvim/lua/lsp/docker-ls.lua

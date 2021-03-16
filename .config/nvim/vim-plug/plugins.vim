@@ -65,7 +65,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Themes
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
     " Intellisense
-    " Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
