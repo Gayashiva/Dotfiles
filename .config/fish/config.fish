@@ -10,7 +10,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # pyenv init
 set -Ux PYENV_ROOT $HOME/.config/pyenv
-set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+# set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 if command -v pyenv 1>/dev/null 2>&1
   pyenv init - | source
 end
