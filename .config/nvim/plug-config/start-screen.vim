@@ -11,8 +11,8 @@ let g:startify_session_dir = '~/.config/nvim/session'
 
 
 let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   Files']                        },
           \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
+          \ { 'type': 'files',     'header': ['   Files']                        },
           \ { 'type': 'sessions',  'header': ['   Sessions']                     },
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']                    },
           \ ]
@@ -32,8 +32,7 @@ function! StartifyEntryFormat()
 
 let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
-            \ { 'g': '~/Programs/Github' },
-            \ { 'a': '~/AWS' },
+            \ { 'a': '~/work/air_model/src/models/userApp.py' },
             \ ]
 
 let g:startify_enable_special = 0

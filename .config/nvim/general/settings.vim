@@ -39,7 +39,7 @@ set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
 set guifont=Fira\ Code\ Nerd\ Font
-" set foldmethod=syntax
+set foldmethod=syntax
 " set textwidth=120
 
 set iskeyword+=-                      	" treat dash separated words as a word text object"

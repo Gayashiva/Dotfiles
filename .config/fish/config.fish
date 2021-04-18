@@ -17,6 +17,11 @@ end
 status --is-interactive; and pyenv init - | source
 status --is-interactive; and pyenv virtualenv-init - | source
 
+function thermal
+    $HOME/Pictures/eventstreamclient/samples/decoder/build/decoder $argv
+end
+funcsave thermal
+
 ## Hide welcome message
 set fish_greeting
 set VIRTUAL_ENV_DISABLE_PROMPT "1"
