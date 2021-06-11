@@ -10,12 +10,11 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # pyenv init
 set -Ux PYENV_ROOT $HOME/.config/pyenv
-# set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+# set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 if command -v pyenv 1>/dev/null 2>&1
-  pyenv init - | source
+    status is-login; and pyenv init --path | source
+    pyenv init --path | source
 end
-status --is-interactive; and pyenv init - | source
-status --is-interactive; and pyenv virtualenv-init - | source
 
 function thermal
     $HOME/Pictures/eventstreamclient/samples/decoder/build/decoder $argv
@@ -28,6 +27,8 @@ set VIRTUAL_ENV_DISABLE_PROMPT "1"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 ## Source .profile to apply its values
 source ~/.profile
+## Go path
+set -p PATH /usr/local/go/bin
 
 
 ## Add ~/.local/bin to PATH
