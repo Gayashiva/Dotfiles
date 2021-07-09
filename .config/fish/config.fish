@@ -11,9 +11,14 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 # pyenv init
 set -Ux PYENV_ROOT $HOME/.config/pyenv
 # set -U fish_user_paths $PYENV_ROOT/bin $fish_user_paths
+# pyenv init --path | source
+# status is-login; and pyenv init --path | source
 if command -v pyenv 1>/dev/null 2>&1
     status is-login; and pyenv init --path | source
-    pyenv init --path | source
+    status --is-interactive; and pyenv virtualenv-init - | source
+    # status --is-interactive; and pyenv init --path | source
+    # status --is-interactive; and pyenv virtualenv-init --path | source
+    # status --is-interactive; and pyenv virtualenv-init - | source
 end
 
 function thermal
